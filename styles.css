@@ -44,6 +44,7 @@ If hardcode both h and w space is 'reserved' while img loads */
 .main-img {
     height: auto;
     width: 500px;
+    display: block;
 }
 
 .description {
