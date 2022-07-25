@@ -1,0 +1,52 @@
+.head {
+    color: rgb(255, 85, 110);
+}
+
+img.home-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.main-head {
+    background-color: navajowhite;
+    text-align: center;
+    font-size: 30px;
+    font-family: Monaco, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+p.introduction {
+    font-family: Monaco, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.recipe-list {
+    font-size: 16px;
+    color: rgb(255, 0, 38);
+    font-family: Monaco, Helvetica, sans-serif;
+}
+
+.recipe-list a {
+    color: rgb(255, 83, 109);
+}
+
+.recipe-list.ingredients,
+.recipe-list.steps,
+.description{
+    font-size: 15px;
+    color: rgb(147, 0, 22);
+}
+
+/* In theory bad design - while img loads in, text must shift
+If hardcode both h and w space is 'reserved' while img loads */
+.main-img {
+    height: auto;
+    width: 500px;
+}
+
+.description {
+    background-color:rgb(255, 235, 205, 0.3);
+    font-size: 17px;
+}
